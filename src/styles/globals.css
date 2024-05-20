@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    src: url("/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url("/fonts/LexendDeca-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    @apply text-sm;
+}
